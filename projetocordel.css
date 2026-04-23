@@ -5,6 +5,34 @@
     margin: 0vh;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+/*.sriracha-regular {
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+/*.passion-one-regular {
+  font-family: "Passion One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.passion-one-bold {
+  font-family: "Passion One", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.passion-one-black {
+  font-family: "Passion One", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+*/
+
 /*header*/
 header{
     background-color: black;
@@ -16,7 +44,8 @@ header{
 header>h1 {
     padding-bottom: 10px;
     font-size: 6vw;  
-    font-variant: small-caps;  
+    font-variant: small-caps; 
+    font-family: font-family: "Passion One", sans-serif; 
 }
 
 /*main*/
@@ -26,9 +55,10 @@ div {
     padding-left: 30px;
 }
 div p{
-    font-size: 3,5vw;
+    font-size: 3.0vh;
     line-height: 4.25vw;
     padding: 10px;
+    font-family:"Sriracha", cursive;;
 }
 div.v2>p, div.v4>p{
 background-color: rgba(27, 27, 27, 0.507); 
@@ -45,7 +75,6 @@ div.v2, div.v4{
     color: white;
     background-color: aquamarine;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.507);
-    border-radius: 10px;
 }
 div.v2{
     background-image: url(./imagens/background001.jpg);
