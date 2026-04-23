@@ -5,6 +5,19 @@
     margin: 0vh;
 }
 
+/*header*/
+header{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+header>h1 {
+    padding-bottom: 10px;
+    font-size: 6vw;    
+}
+
+/*main*/
 div {
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -12,12 +25,13 @@ div {
 }
 div p{
     font-size: 3,5vh;
-    line-height: 2em;
+    line-height: 4.5vw;
+    padding: 5px;
 }
 div.v2>p, div.v4>p{
 background-color: rgba(27, 27, 27, 0.507); 
 display: inline-block;  
-padding: 5px; 
+ 
 }
 div.v1, div.v3, div.v5 {
     background-color: white;
@@ -41,4 +55,12 @@ div.v4{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+/*footer*/
+footer{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
 }
